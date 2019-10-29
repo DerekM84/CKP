@@ -34,11 +34,16 @@
 
 }
 
-.sidebar-button {
+.sidebar-link {
   height: 40px;
   width: 60%;
-  background-color: darkslategray;
   border: 1px solid black;
+}
+.sidebar-button {
+  height:100%;
+  width:100%;
+  background-color: darkslategray;
+  border: 1px solid grey;
 }
 
 .sidebar-bottom {

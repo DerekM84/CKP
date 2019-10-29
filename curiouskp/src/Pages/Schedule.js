@@ -3,7 +3,8 @@ import "./Home.css";
 import Sidebar from "../Components/Sidebar";
 import Slideshow from "../Components/Carousel";
 import Hometabs from "../Components/Hometabs";
-class Home extends Component {
+
+class Schedule extends Component {
   state = {
     hidden: false
   };
@@ -11,14 +12,9 @@ class Home extends Component {
   render() {
     return (
       <div className="home-body">
-
         <div className="row">
-
-
         </div>
-
           <Sidebar />
-  
         <div className="right-column">
           <div className="carousel-wrap">
             <Slideshow />
@@ -32,4 +28,4 @@ class Home extends Component {
   }
 }
 
-export default Home;
+export default Schedule;

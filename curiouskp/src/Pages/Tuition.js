@@ -3,7 +3,7 @@ import "./Home.css";
 import Sidebar from "../Components/Sidebar";
 import Slideshow from "../Components/Carousel";
 import Hometabs from "../Components/Hometabs";
-class Home extends Component {
+class Tuition extends Component {
   state = {
     hidden: false
   };
@@ -32,4 +32,4 @@ class Home extends Component {
   }
 }
 
-export default Home;
+export default Tuition;
