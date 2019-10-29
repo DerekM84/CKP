@@ -1,0 +1,10 @@
+.home-body {
+    height: 100vh;
+    min-height:100vh;
+    display: flex;
+}
+.text {
+    color:green;
+    font-size:3rem;
+    background-color:white;
+}

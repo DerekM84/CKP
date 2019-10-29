@@ -1,18 +1,14 @@
-body {
+html, body, #app {
   height:100%;
   width:100%;
   background-color: rgb(63, 61, 61);
 }
-
-.App {
-  text-align : center;
-  background-color : rgb(63, 61, 61);
-height:100%;
-width:100%;
-}
-
 h1 {
   color:greenyellow;
 }
 
+
+html, body, #app, #app>div {
+  height: 100%
+}
 
