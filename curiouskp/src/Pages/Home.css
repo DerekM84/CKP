@@ -2,9 +2,32 @@
     height: 100vh;
     min-height:100vh;
     display: flex;
+
 }
 .text {
     color:green;
     font-size:3rem;
     background-color:white;
+}
+
+.right-column{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    width: 80%;
+    height:100vh;
+
+}
+.slideshow-wrap {
+   margin:auto auto;
+   height:30%;
+   max-height:30%;
+   width:75%;
+   border:10px solid grey;
+}
+
+.content-section{
+
+    height:70vh;
+    min-height:70vh;
 }

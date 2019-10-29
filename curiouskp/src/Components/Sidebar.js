@@ -14,11 +14,11 @@ class Sidebar extends React.Component {
           </div>
         </div>
         <div className="sidebar-middle">
-          <button className="sidebar-button">Button</button>
-          <button className="sidebar-button">Button</button>
-          <button className="sidebar-button">Button</button>
-          <button className="sidebar-button">Button</button>
-          <button className="sidebar-button">Button</button>
+          <button className="sidebar-button">Home </button>
+          <button className="sidebar-button">Tuition </button>
+          <button className="sidebar-button">Schedule </button>
+          <button className="sidebar-button">Staff </button>
+          <button className="sidebar-button">Mission </button>
         </div>
         <div className="sidebar-bottom">
           <p>Informational Text</p>
