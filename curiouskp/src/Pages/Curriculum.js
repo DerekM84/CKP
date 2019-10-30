@@ -2,11 +2,10 @@ import React, { Component } from "react";
 import "./Home.css";
 import Sidebar from "../Components/Sidebar";
 import Slideshow from "../Components/Carousel";
-import Scheduletabs from "../Components/Tabs/Scheduletabs";
+import Curriculumtabs from "../Components/Tabs/Curriculumtabs";
 import { Container, Row, Col } from 'reactstrap';
 
-
-class Schedule extends Component {
+class Curriculum extends Component {
   state = {
     hidden: false
   };
@@ -14,7 +13,7 @@ class Schedule extends Component {
   render() {
     return (
       <div className="home-body">
-       
+
 <Col className="left-column">
 
 <Sidebar />
@@ -32,14 +31,15 @@ class Schedule extends Component {
 
   <div className="content-section">
 
-    <Scheduletabs />
+    <Curriculumtabs />
 
   </div>
 
 </Col>
+
       </div>
     );
   }
 }
 
-export default Schedule;
+export default Curriculum;

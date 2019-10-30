@@ -3,6 +3,10 @@ import "./Home.css";
 import Sidebar from "../Components/Sidebar";
 import Slideshow from "../Components/Carousel";
 import Hometabs from "../Components/Tabs/Hometabs";
+import { Container, Row, Col } from 'reactstrap';
+
+
+
 class Home extends Component {
   state = {
     hidden: false
@@ -12,21 +16,32 @@ class Home extends Component {
     return (
       <div className="home-body">
 
-        <div className="row">
+      
 
+       <Col className="left-column">
 
-        </div>
+        <Sidebar />
 
-          <Sidebar />
-  
-        <div className="right-column">
-          <div className="carousel-wrap">
+       </Col>
+       
+
+        <Col className="right-column">
+
+        <div className="carousel-wrap">
+
             <Slideshow />
+
           </div>
+
           <div className="content-section">
+
             <Hometabs />
+
           </div>
-        </div>
+
+        </Col>
+      
+     
       </div>
     );
   }

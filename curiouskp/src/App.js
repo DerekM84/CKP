@@ -5,8 +5,8 @@ import Home from "./Pages/Home.js";
 import Splash from "./Pages/Splash.js";
 import Admin from "./Pages/Admin.js";
 import Schedule from "./Pages/Schedule.js";
-import Staff from "./Pages/Staff.js";
-import Tuition from "./Pages/Tuition.js";
+import Resources from "./Pages/Resources.js";
+import Curriculum from "./Pages/Curriculum.js";
 
 
 
@@ -18,10 +18,10 @@ function App() {
     
       <Route exact path="/" component ={Splash} />
       <Route exact path="/home" component ={Home} />
-      <Route exact path="/tuition" component ={Tuition} />
+      <Route exact path="/curriculum" component ={Curriculum} />
       <Route exact path="/schedule" component ={Schedule} />
       <Route exact path="/admin" component ={Admin} />
-      <Route exact path="/staff" component ={Staff} />
+      <Route exact path="/resources" component ={Resources} />
 
       </Router>
 

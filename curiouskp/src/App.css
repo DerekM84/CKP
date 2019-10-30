@@ -1,4 +1,4 @@
-html, body, #app {
+body {
   height:100%;
   width:100%;
   background-color:rgb(34, 31, 31);
@@ -9,7 +9,5 @@ h1 {
 }
 
 
-html, body, #app, #app>div {
-  height: 100%
-}
+
 

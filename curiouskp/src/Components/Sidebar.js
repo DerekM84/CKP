@@ -16,13 +16,14 @@ class Sidebar extends React.Component {
           </div>
         </div>
         <div className="sidebar-middle">
-          <Link className="sidebar-link" to="/home"><button className="sidebar-button">Home </button></Link>
-          <Link className="sidebar-link" to="/Schedule"><button className="sidebar-button">Schedule </button></Link>
-          <Link className="sidebar-link" to="/Tuition"><button className="sidebar-button">Tuition </button></Link>
-          <Link className="sidebar-link" to="/Staff"><button className="sidebar-button">Staff </button></Link>
+          <Link className="sidebar-link" to="/home"><button className="sidebar-button">Main </button></Link>
+          <Link className="sidebar-link" to="/schedule"><button className="sidebar-button">Schedule </button></Link>
+          <Link className="sidebar-link" to="/curriculum"><button className="sidebar-button">Curriculum </button></Link>
+          <Link className="sidebar-link" to="/resources"><button className="sidebar-button">Resources </button></Link>
           {/* <Link className="sidebar-link" to="/home"><button className="sidebar-button">Other </button></Link> */}
         </div>
         <div className="sidebar-bottom">
+          <h1>Contact Us</h1>
           <p>Informational Text</p>
           <p>Tel: 480 659-5511</p>
           <p>info@curiouskidspreschoolaz.com ‎</p>
