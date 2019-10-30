@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { TabContent, TabPane, Nav, NavItem, NavLink, Card, Button, CardTitle, CardText, Row, Col } from 'reactstrap';
 import classnames from 'classnames';
+import "./Hometabs.css";
 
 const Hometabs = (props) => {
   const [activeTab, setActiveTab] = useState('1');
@@ -11,23 +12,39 @@ const Hometabs = (props) => {
 
   return (
     <div>
-      <Nav tabs>
+      <Nav tabs className="nav-container">
 
-        <NavItem>
+        <NavItem className="nav-item">
           <NavLink
             className={classnames({ active: activeTab === '1' })}
             onClick={() => { toggle('1'); }}
           >
-            Tab1
+            Mission
           </NavLink>
         </NavItem>
 
-        <NavItem>
+        <NavItem className="nav-item">
           <NavLink
             className={classnames({ active: activeTab === '2' })}
             onClick={() => { toggle('2'); }}
           >
-            Tab 2
+            Curriculum
+          </NavLink>
+        </NavItem>
+        <NavItem className="nav-item">
+          <NavLink
+            className={classnames({ active: activeTab === '3' })}
+            onClick={() => { toggle('3'); }}
+          >
+            Tab 3
+          </NavLink>
+        </NavItem>
+        <NavItem className="nav-item">
+          <NavLink
+            className={classnames({ active: activeTab === '4' })}
+            onClick={() => { toggle('4'); }}
+          >
+            Tab 4
           </NavLink>
         </NavItem>
       </Nav>
@@ -57,6 +74,22 @@ const Hometabs = (props) => {
                 <CardText>With supporting text below as a natural lead-in to additional content.</CardText>
                 <Button>Go somewhere</Button>
               </Card>
+            </Col>
+          </Row>
+        </TabPane>
+
+        <TabPane tabId="3">
+          <Row>
+            <Col sm="12">
+              
+            </Col>
+          </Row>
+        </TabPane>
+
+        <TabPane tabId="4">
+          <Row>
+            <Col sm="12">
+             
             </Col>
           </Row>
         </TabPane>
