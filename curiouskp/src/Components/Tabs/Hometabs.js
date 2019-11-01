@@ -121,6 +121,7 @@ const Hometabs = props => {
         </TabPane>
 
         <TabPane tabId="2">
+          <div className="staff-boxes">
           <div className="staff-container-wrap">
             <div className="staff-container-top">
               <div className="staff-picture-wrap">
@@ -169,12 +170,14 @@ const Hometabs = props => {
                   alt="Clive Jervis"
                 />
               </div>
-              <p>
+            
+            </div>
+            <div className="staff-container-bottom">
+            <p>
                 Clive moved to Chandler in 2003 from England and lives here with
                 wife Ruth, and their two children.
               </p>
-            </div>
-            <div className="staff-container-bottom">
+              <br></br>
               <p>
                 As well as aiming to create a unique preschool experience for
                 the kids, Clive wants to create a sense of community among the
@@ -191,6 +194,7 @@ const Hometabs = props => {
                 running his kids to soccer.
               </p>
             </div>
+          </div>
           </div>
         </TabPane>
 

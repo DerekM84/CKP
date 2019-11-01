@@ -1,21 +1,16 @@
-.nav-item {
-    background-color:darkslategray;
-    border-radius:10%;
+
+.classroom-name {
+    text-align:center;
+    text-decoration:underline;
 }
 
-.nav-item a{
-    background-color: none;
-    border-radius:10%;
-}
-
-.nav-container{
-    margin-top:2%;
+.classroom-image-container {
     display:flex;
-    justify-content: space-evenly;
-    border:none;
-    color:yellow;
+    flex-direction: row;
+    margin:3% auto;
 }
 
-.tab-content {
-    color:cyan;
+.classroom-preview-image {
+margin: auto;
+max-width: 45%;
 }

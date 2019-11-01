@@ -53,46 +53,88 @@ const Resourcetabs = props => {
               toggle("3");
             }}
           >
-           Extra
+            Extra
           </NavLink>
         </NavItem>
       </Nav>
 
       <TabContent className="tab-content" activeTab={activeTab}>
         <TabPane tabId="1">
-          <Row>
-            <Col sm="12">
-              <h4> </h4>
-              <p>
-
-              </p>
-            </Col>
-          </Row>
+          <strong>Chandler Kindergarten Entrance &amp; Assessment</strong>
+          Children who are 5 years old by&nbsp;August 31st are eligible to
+          enroll&nbsp;in&nbsp;
+          <a href="http://ww2.chandler.k12.az.us/chandlerschools">CUSD</a>
+          &nbsp;kindergarten classes that begin in July that year. However, it
+          is possible to enroll younger children who are 5 years old before the
+          end of December if they pass the CUSD&nbsp;
+          <a href="http://www.cusd80.com//site/Default.aspx?PageID=43017">
+            Kindergarten Readiness Test
+          </a>
+          . Enrollment into kindergarten is normally done in the February
+          preceding the start of the school year in July. See the CUSD&nbsp;
+          <a href="https://www.cusd80.com/Page/92334">
+            Kindergarten Registration
+          </a>
+          &nbsp;page for details on how to do this. CUSD has an open enrollment
+          policy, meaning you can apply to go to any elementary school in the
+          district, although places are guaranteed only for your home school as
+          defined by&nbsp;a&nbsp;
+          <a href="http://www.chandler.k12.az.us/page/1148">boundary map</a>. In
+          the months of May/June before entering Kindergarten, each CUSD
+          elementary school assesses all registered children individually in
+          what is known as the Kindergarten Individual
+          Screening/Skills&nbsp;Test (
+          <a href="https://www.cusd80.com/cms/lib/AZ01001175/Centricity/Domain/24/2017-2018%20CUSD%20Elementary%20Handbook.pdf">
+            KIST
+          </a>
+          ). This test discovers what each child knows and how they behave
+          socially, and is used by the school to determine which class/teacher
+          the child will be placed in. Through speaking directly with the local
+          elementary schools Curious Kids Preschool has a good knowledge of KIST
+          and we ensure that our&nbsp;
+          <a href="http://curiouskidspreschool.com/curriculum/">curriculum</a>
+          &nbsp;exceeds all test points. To aid parents prepare their children
+          for entrance to kindergarten, Chandler Unified School District (CUSD)
+          provides a&nbsp;
+          <a href="https://www.cusd80.com/cms/lib/AZ01001175/Centricity/Domain/24/Kindergarten%20Under%20Construction%20ENGLISH.pdf">
+            Kindergarten Readiness Handbook
+          </a>
+          . All CUSD elementary school policies and information is covered in
+          the CUSD&nbsp;
+          <a href="https://www.cusd80.com/page/1147">
+            Elementary Student Handbook
+          </a>
+          .
         </TabPane>
 
         <TabPane tabId="2">
-          <Row>
-            <Col sm="6">
-              <Card body>
-                <CardTitle>Special Title Treatment</CardTitle>
-                <CardText>
-                  With supporting text below as a natural lead-in to additional
-                  content.
-                </CardText>
-                <Button>Go somewhere</Button>
-              </Card>
-            </Col>
-            <Col sm="6">
-              <Card body>
-                <CardTitle>Special Title Treatment</CardTitle>
-                <CardText>
-                  With supporting text below as a natural lead-in to additional
-                  content.
-                </CardText>
-                <Button>Go somewhere</Button>
-              </Card>
-            </Col>
-          </Row>
+
+          <h1>History</h1>
+          <strong>Curious Kids</strong>&nbsp;is the result of a dream conceived
+          and brought to fruition by husband and wife team of Clive Jervis and
+          Ruth Dávila. The two realized that there was a real need for a loving,
+          exciting, unique preschool in their neighborhood in Chandler. Together
+          they put in motion an idea for this school to engage two, three, four
+          and five year-olds in a creative learning environment which exposes
+          the children to all of the wonders of the world around them. The
+          school got its name when Clive and Ruth asked their then six year old
+          son, to think of a favorite character and he chose Curious George.
+          Clive &amp; Ruth's daughter was one of the 13 kids that were the first
+          to graduate from Curious Kids in May 2014. Curious Kids began&nbsp;
+          <a href="http://curiouskidspreschool.com/history/construction/">
+            construction
+          </a>
+          &nbsp;in June 2012, and opened on October 17th 2012.
+
+          <h1> Construction </h1>
+          <strong>Curious Kids&nbsp;</strong>Preschool&nbsp;was newly
+          constructed in 2012 inside a previously unoccupied space of Dobson
+          Town Place. This enabled us to design the layout and features we
+          wanted without restriction - even to determine the floor area we
+          wanted the school to occupy. We chose to place our entrance at the
+          side of the building to create a safe area for children, and to allow
+          parents to park either at the front or rear of the building. Below are
+          some photographs documenting the construction's progress.
         </TabPane>
 
         <TabPane tabId="3">
