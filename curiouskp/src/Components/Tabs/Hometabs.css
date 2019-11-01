@@ -14,12 +14,10 @@
 .nav-container {
   margin-top: 0% ;
   margin-bottom: 5% ;
-  
- 
   display: flex;
   justify-content: space-evenly;
   border: none;
-  color: yellow;
+  color: white;
 }
 
 .tab-content {
@@ -44,12 +42,12 @@ table {
 /* Content on the home page */
 .staff-boxes {
   display:flex;
-  flex-direction:row;
+  flex-direction:column;
   justify-content:center;
   align-items:center;
 }
 .staff-container-wrap {
-  width: 45%;
+  width: 75%;
   height: 85%;
   display: flex;
   flex-direction: column;
@@ -58,27 +56,26 @@ table {
   border: 1px solid white;
   min-height: 375px;
   min-width: 350px;
-  font-size: 0.7rem;
+  font-size: 0.8rem;
   margin:auto;
+  margin-bottom:20px;
 }
 
 .staff-container-top {
+  background-image: linear-gradient(black, darkslategray);
   height: 50%;
   width: 100%;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
   flex-wrap: wrap;
-  text-align: right;
   border: 1px solid purple;
+  background-color:
 }
 
-.staff-container-bottom {
-  flex-direction: row;
-  text-align: center;
-  border: 1px solid orange;
-  height: 60%;
-  width: 100%;
-}
+
+
 
 .staff-picture-wrap {
   width: 40%;
@@ -86,9 +83,27 @@ table {
   max-height: 200px;
   max-width: 150px;
   border: 1px solid green;
+  border-radius:50%;
+  margin:auto;
 }
 
 .staff-picture {
   height: 100%;
   width: 100%;
+  border-radius:50%;
+  
+}
+
+.staff-container-bottom {
+  background-color:darkslategray;
+  flex-direction: row;
+  text-align: left;
+  border: 1px solid orange;
+  height: 60%;
+  width: 100%;
+}
+.staff-text-wrap{
+  height:96%;
+  width:96%;
+  margin:2% auto;
 }

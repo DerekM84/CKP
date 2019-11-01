@@ -60,36 +60,34 @@ const Scheduletabs = props => {
 
       <TabContent className="tab-content" activeTab={activeTab}>
         <TabPane tabId="1">
-          <strong>Yearly Calendar</strong>
+          <b>Yearly Calendar</b>
           <br></br>
-          Our school year&nbsp;
-          <a href="http://curiouskidspreschool.com/schedules/calendar/">
-            calendar
-          </a>
-          &nbsp;is based on the Chandler Unified School District &nbsp;
-          <a href="http://www.chandler.k12.az.us/page/1298">calendar</a>&nbsp;to
+          <br></br>
+          Our school year is based on the Chandler Unified School District 
+          <a target="_blank" href="http://www.chandler.k12.az.us/page/1298"> Calendar</a> to
           accommodate older siblings attending "big boys &amp; girls"
-          schools.&nbsp;We only close for one week during Fall and Spring
+          schools. We only close for one week during Fall and Spring
           breaks.
           <br></br>
           <br></br>
+
           <strong>Class Times</strong>
           <br></br>
-          We offer 3½ hours of screen-free, hands-on, fun learning in 2
+          <br></br>
+          We offer 3½ hours of fun, screen-free, hands-on learning in 2
           sessions:
           <ul>
             <li>Mornings from 8:00 am to 11:30 am</li>
             <li>
-              Afternoons from 12:10 to 3:30 pm. Our pm classes
-              have&nbsp;discounted&nbsp;
-              <a href="http://curiouskidspreschool.com/fees-tuition/">fees</a>.
+              Afternoons from 12:10 to 3:30 pm.(PM classes have reduced fees).
             </li>
           </ul>
           <strong>Summer Program</strong>
           <br></br>
+          <br></br>
           Our&nbsp;
           <a href="http://curiouskidspreschool.com/schedules/summer-program/">
-            summer program
+            Summer program
           </a>
           &nbsp;runs throughout June and July, and offers flexible sign-up days.
           You can choose to come per day or per week.
@@ -97,6 +95,7 @@ const Scheduletabs = props => {
           <br></br>
           <br></br>
           <strong>Classes</strong>
+          <br></br>
           <br></br>
           We offer four classes based primarily on age: 2s, 3s, Pre-K, and
           Pre-K+. For the 2s and 3s classes we offer:
