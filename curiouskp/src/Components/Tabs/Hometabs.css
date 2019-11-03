@@ -32,14 +32,26 @@
   color: rgb(106, 172, 172);
 }
 
+/* Content on the home page */
+.calendar-table-wrap{
+  margin:auto;
+}
 table {
-  width: 700px;
-  height: 200px;
+  margin:auto;
+  width: 80%;
+  height: 100%;
+}
+
+table tr{
+  text-align: center;
+  margin-bottom:5%;
+}
+table td {
+  margin-bottom:5%;
 }
 
 
 
-/* Content on the home page */
 .staff-boxes {
   display:flex;
   flex-direction:column;
@@ -58,7 +70,8 @@ table {
   min-width: 350px;
   font-size: 0.8rem;
   margin:auto;
-  margin-bottom:20px;
+  margin-bottom:30px;
+  box-shadow:0px 5px 3px lightgrey;
 }
 
 .staff-container-top {
@@ -102,8 +115,35 @@ table {
   height: 60%;
   width: 100%;
 }
+
 .staff-text-wrap{
-  height:96%;
-  width:96%;
-  margin:2% auto;
+  height: 96%;
+  width: 96%;
+  margin: 2% auto;
+}
+
+.styling-heading-wrap {
+border-top: 1px solid white;
+border-bottom: 1px solid white;
+border-right: 1px solid white;
+border-left: 1px solid white;
+width: 30%;
+display: flex;
+justify-content: center;
+transition: 0.5s ease-in-out;
+}
+
+.styled-heading {
+font-size: 2.0rem;
+transition: 0.5s ease-in-out;
+}
+
+.styling-container:hover .styled-heading-wrap {
+transform: none ;
+border-right: none ;
+}
+
+.styling-heading-wrap:hover .styled-heading {
+font-size:2.5rem;
+transform:translateX(50px) rotate(-5deg);
 }

@@ -15,15 +15,19 @@ import {
 import classnames from "classnames";
 import "./Curriculumtabs.css";
 
-const Curriculumtabs = props => {
-  const [activeTab, setActiveTab] = useState("1");
 
-  const toggle = tab => {
-    if (activeTab !== tab) setActiveTab(tab);
-  };
+  
 
-  return (
-    <div>
+  
+  const Curriculumtabs = props => {
+    const [activeTab, setActiveTab] = useState("1");
+    
+    const toggle = tab => {
+      if (activeTab !== tab) setActiveTab(tab);
+    };
+    
+    return (
+      <div>
       <Nav tabs className="nav-container">
         <NavItem className="nav-item">
           <NavLink
@@ -103,6 +107,8 @@ const Curriculumtabs = props => {
           parents, with parking provided both at the front and rear of the
           school. For security, entrance into reception is controlled by a
           keypad.
+
+
           <h1 className="classroom-name">2's Classroom</h1>
           <div className="classroom-image-container">
             <img

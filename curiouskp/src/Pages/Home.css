@@ -27,10 +27,13 @@
   height: 30vh;
   max-height: 30vh;
   width: 75%;
-  border: 10px solid grey;
-  border-radius: 5%;
+  border: 10px solid rgb(63, 61, 61);
+  border-radius: 1%;
   margin-top:4%;
-
+  box-shadow:3px 3px 10px grey;
+}
+.carousel-wrap:hover {
+  animation: shadow 10s ease-in infinite;
 }
 
 .content-section {

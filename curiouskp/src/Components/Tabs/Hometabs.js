@@ -62,7 +62,10 @@ const Hometabs = props => {
         <TabPane tabId="1">
           <Row>
             <Col sm="12">
-              <h4>Mission Contents</h4>
+               <div className="styling-container">
+                <div className="styled-heading-wrap">
+                  <h4 className="styled-heading"> Mission Contents </h4>
+                </div>
               <p>
                 <b>K</b>ids are curious by nature. At Curious Kids
                 Preschool, our mission is to foster that curiosity through a fun
@@ -75,7 +78,7 @@ const Hometabs = props => {
                 <a
                   target="_blank"
                   href="http://www.edutopia.org/blog/stem-to-steam-strengthens-economy-john-maeda"
-                >
+                  >
                   STEAM
                 </a>{" "}
                 ?<br></br>
@@ -97,7 +100,7 @@ const Hometabs = props => {
                     <a
                       target="_blank"
                       href="http://www.parents.com/kids/development/social/25-manners-kids-should-know/"
-                    >
+                      >
                       manners
                     </a>{" "}
                     and core values.
@@ -123,13 +126,14 @@ const Hometabs = props => {
                   <a
                     target="_blank"
                     href="http://azdhs.gov/prevention/nutrition-physical-activity/empower/index.php"
-                  >
+                    >
                     {" "}
                     Empower
                   </a>
                   .
                 </p>
               </p>
+                    </div>
             </Col>
           </Row>
         </TabPane>
