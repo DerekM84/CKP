@@ -1,0 +1,59 @@
+.classroom-toggle-div {
+    display:flex;
+    flex-direction: column;
+    margin:auto;
+}
+
+.classroom-toggle-button{
+background-color:transparent;
+border-radius:8%;
+border:2px solid rgb(45, 45, 45);
+box-shadow: 3px 3px 10px grey;
+transition:0.3s;
+margin:3% auto;
+}
+
+.classroom-toggle-button:hover {
+background-color:transparent;
+border:none;
+
+}
+
+.classroom-button-p {
+    color: rgb(127,173,53);
+    font-size:2rem;
+    font-family:cursive;
+    transition:0.3s;
+}
+
+.classroom-toggle-button:hover .classroom-button-p {
+color:white;
+font-size:3rem;
+}
+
+
+.classroom-toggle-card {
+    background-color:transparent;
+    border:none;
+    width:100%;
+    margin:auto;
+}
+
+.card-body {
+    border: 1px solid rgb(54, 15, 54);
+    border-radius:10%;
+}
+.card-image {
+    width:45%;
+    margin:auto;
+    border-radius:10%;
+    box-shadow: 3px 3px 10px grey;
+    border:2px solid rgb(45, 45, 45);
+}
+.toggle-image-wrap {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height:97%;
+    width:97%;
+}

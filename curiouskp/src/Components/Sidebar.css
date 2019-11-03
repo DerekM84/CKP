@@ -4,7 +4,6 @@
   position: fixed;
   top: 0;
   box-shadow: 3px 3px 10px grey;
-
 }
 
 .sidebar-top {
@@ -13,16 +12,6 @@
   display:flex;
   align-items:center;
   align-content:center;
-}
-
-
-@keyframes rotate {
-  from{ transform: rotate(0deg);   }
-  to{  transform: rotate(360deg); }
-}
-@keyframes rotateback {
-  from{ transform: rotate(0deg);   }
-  to{  transform: rotate(-360deg); }
 }
 
 .sidebar-logo-tile {
@@ -39,7 +28,7 @@
 }
 
 .sidebar-container:hover {
-  animation: shadow 15s ease-in-out infinite;
+  animation: shadow 30s ease-in-out infinite;
   background-color:rgb(45, 45, 45);
 
 }
@@ -157,13 +146,25 @@ transition:0.5s;
   color:white;
 }
 
+@keyframes rotate {
+  from{ transform: rotate(0deg);   }
+  to{  transform: rotate(360deg); }
+}
+@keyframes rotateback {
+  from{ transform: rotate(0deg);   }
+  to{  transform: rotate(-360deg); }
+}
 
 @keyframes shadow {
-0% {
+
+  0% {
+    box-shadow: 2px 2px 10px  grey, -2px 2px 10px grey, 2px -2px 10px grey, -2px -2px 10px grey;
+  }
+/* 5% {
   box-shadow: 2px 2px 10px rgb(11, 230, 66), -2px 2px 10px rgb(216, 85, 184), 2px -2px 10px peachpuff, -2px -2px 10px rgb(113, 0, 128);
-}
+} */
 10% {
-  box-shadow: 2px 2px 10px red, -2px 2px 10px rgb(253, 198, 96), 2px -2px 10px rgb(104, 93, 83), -2px -2px 10px purple;
+  box-shadow: 2px 2px 10px green, -2px 2px 10px rgb(253, 198, 96), 2px -2px 10px rgb(104, 93, 83), -2px -2px 10px purple;
 }
 20% {
   box-shadow: 2px 2px 10px orange, -2px 2px 10px rgb(128, 0, 60), 2px -2px 10px rgb(9, 204, 9), -2px -2px 10px peachpuff;

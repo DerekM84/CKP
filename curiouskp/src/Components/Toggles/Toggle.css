@@ -1,0 +1,47 @@
+.toggle-container {
+    display:flex;
+    flex-direction: column;
+    margin:auto;
+}
+
+.collapse-show{
+    display:flex;
+    justify-content: space-around;
+}
+
+
+.toggle-button{
+background-color:transparent;
+border:1px solid white;
+transition:0.3s;
+margin:auto;
+}
+
+.toggle-button:hover {
+background-color:transparent;
+border:none;
+
+}
+
+.button-p {
+    color: green;
+    font-size:2rem;
+    font-family:cursive;
+    transition:0.3s;
+}
+
+.toggle-button:hover .button-p {
+color:blue;
+font-size:3rem;
+}
+
+
+.toggle-card {
+    background-color:transparent;
+    border:none;
+    width:45%;
+}
+
+.toggle-text {
+
+}

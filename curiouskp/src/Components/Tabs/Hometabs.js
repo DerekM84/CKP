@@ -12,6 +12,7 @@ import {
   Row,
   Col
 } from "reactstrap";
+import Toggle from "../Toggles/Toggle";
 import classnames from "classnames";
 import "./Hometabs.css";
 
@@ -66,6 +67,20 @@ const Hometabs = props => {
                 <div className="styled-heading-wrap">
                   <h4 className="styled-heading"> Mission Contents </h4>
                 </div>
+
+
+
+
+
+                <div className="toggle-container">
+                <Toggle text="Hello World Test" img="/images/Misc/lazer.jpg"/>
+                <Toggle text="Hello World Test" img="/images/Misc/lazer.jpg"/>
+                </div>
+
+
+
+
+
               <p>
                 <b>K</b>ids are curious by nature. At Curious Kids
                 Preschool, our mission is to foster that curiosity through a fun

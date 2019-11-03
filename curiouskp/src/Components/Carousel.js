@@ -11,18 +11,20 @@ import "./Carousel.css";
 const items = [
   {
     src: './images/Building/school-front.jpg',
-    altText: 'Slide 1',
-    caption: 'Slide 1'
+    altText: 'Curious Kids',
+    caption:'Curious Kids Preschool'
   },
   {
-    src: './images/Building/art-gallery.jpg',
-    altText: 'Slide 2',
-    caption: 'Slide 2'
+    src: './images/Building/SafeEntrance.jpg',
+    altText: 'Safe Entrance', 
+    caption:'Safe Entrance'
+
   },
   {
     src: './images/Classrooms/group-activity.jpg',
-    altText: 'Slide 3',
-    caption: 'Slide 3'
+    altText: 'Group Activity',
+    caption:'Group Activity'
+
   }
 ];
 
@@ -55,7 +57,7 @@ const Slideshow= (props) => {
         key={item.src}
       >
         <img className="carousel-image" src={item.src} alt={item.altText} />
-        <CarouselCaption captionText={item.caption} captionHeader={item.caption} />
+        <CarouselCaption captionText={item.caption}  />
       </CarouselItem>
     );
   });
