@@ -10,7 +10,9 @@
   background-color: none;
   border-radius: 10%;
 }
-
+a {
+  color: rgb(127,173,53);
+}
 .nav-container {
   margin-top: 0% ;
   margin-bottom: 5% ;

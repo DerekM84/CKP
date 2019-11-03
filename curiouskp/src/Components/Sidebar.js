@@ -27,12 +27,13 @@ class Sidebar extends React.Component {
           <Link className="sidebar-link" to="/resources"><button className="sidebar-button"><p>RESOURCES</p> </button></Link>
           {/* <Link className="sidebar-link" to="/home"><button className="sidebar-button">Other </button></Link> */}
         </div>
-        <div className="sidebar-bottom">
-          <h1>Contact Us</h1>
+        <div className="sidebar-bottom-wrap">
+          <div className="sidebar-bottom-container">
+          <h1><a href="mailto:info@curiouskidspreschoolaz.com">Contact Us</a></h1>
           <p>Informational Text</p>
           <p>Tel: 480 659-5511</p>
           <p>info@curiouskidspreschoolaz.com ‎</p>
-        
+          </div>
         </div>
       </div>
     );
