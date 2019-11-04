@@ -72,15 +72,6 @@ const Hometabs = props => {
 
 
 
-                <div className="toggle-container">
-                <Toggle text="Hello World Test" img="/images/Misc/lazer.jpg"/>
-                <Toggle text="Hello World Test" img="/images/Misc/lazer.jpg"/>
-                </div>
-
-
-
-
-
               <p>
                 <b>K</b>ids are curious by nature. At Curious Kids
                 Preschool, our mission is to foster that curiosity through a fun
