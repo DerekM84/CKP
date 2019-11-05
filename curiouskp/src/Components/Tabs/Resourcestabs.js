@@ -60,55 +60,89 @@ const Resourcetabs = props => {
 
       <TabContent className="tab-content" activeTab={activeTab}>
         <TabPane tabId="1">
-          <strong>Chandler Kindergarten Entrance &amp; Assessment</strong>
-          Children who are 5 years old by&nbsp;August 31st are eligible to
-          enroll&nbsp;in&nbsp;
-          <a href="http://ww2.chandler.k12.az.us/chandlerschools">CUSD</a>
-          &nbsp;kindergarten classes that begin in July that year. However, it
-          is possible to enroll younger children who are 5 years old before the
-          end of December if they pass the CUSD&nbsp;
-          <a href="http://www.cusd80.com//site/Default.aspx?PageID=43017">
-            Kindergarten Readiness Test
-          </a>
-          . Enrollment into kindergarten is normally done in the February
-          preceding the start of the school year in July. See the CUSD&nbsp;
-          <a href="https://www.cusd80.com/Page/92334">
-            Kindergarten Registration
-          </a>
-          &nbsp;page for details on how to do this. CUSD has an open enrollment
+          <p>
+            <b>Chandler Kindergarten Entrance Assessment</b>
+          </p>
+          <ul>
+            <li>
+              <a
+                target="_blank"
+                href="http://ww2.chandler.k12.az.us/chandlerschools"
+              >
+                Chandler Unified School District
+              </a>
+            </li>
+            <li>
+              {" "}
+              <a
+                target="_blank"
+                href="http://www.cusd80.com//site/Default.aspx?PageID=43017"
+              >
+                Kindergarten Readiness Test
+              </a>
+            </li>
+            <li>
+              <a target="_blank" href="https://www.cusd80.com/Page/92334">
+                Kindergarten Registration
+              </a>
+            </li>
+          </ul>
+
+          <p>
+            Children who are 5 years old by&nbsp;August 31st are eligible to
+            enroll&nbsp;in&nbsp; the district.
+          </p>
+
+          <p>
+            However, it is possible to enroll younger children who are 5 years
+            old before the end of December if they pass the Readiness test.
+           
+            </p>
+           
+            <p>
+              
+            Enrollment into kindergarten is normally done in the February
+            preceding the start of the school year in July.
+          </p>
+          <p>
+
+          CUSD has an open enrollment
           policy, meaning you can apply to go to any elementary school in the
           district, although places are guaranteed only for your home school as
-          defined by&nbsp;a&nbsp;
-          <a href="http://www.chandler.k12.az.us/page/1148">boundary map</a>. In
+          defined by the 
+          <a target="_blank" href="http://www.chandler.k12.az.us/page/1148"> boundary map</a>. 
+          </p>
+          <p>
+
+          In
           the months of May/June before entering Kindergarten, each CUSD
           elementary school assesses all registered children individually in
-          what is known as the Kindergarten Individual
-          Screening/Skills&nbsp;Test (
-          <a href="https://www.cusd80.com/cms/lib/AZ01001175/Centricity/Domain/24/2017-2018%20CUSD%20Elementary%20Handbook.pdf">
-            KIST
-          </a>
-          ). This test discovers what each child knows and how they behave
+          what is known as the 
+          <a target="_blank" href="https://www.cusd80.com/cms/lib/AZ01001175/Centricity/Domain/24/2017-2018%20CUSD%20Elementary%20Handbook.pdf">
+          &nbsp;Kindergarten Individual
+          Screening/Skills&nbsp;Test
+          </a>.
+          </p>
+
+          This test discovers what each child knows and how they behave
           socially, and is used by the school to determine which class/teacher
           the child will be placed in. Through speaking directly with the local
           elementary schools Curious Kids Preschool has a good knowledge of KIST
-          and we ensure that our&nbsp;
-          <a href="http://curiouskidspreschool.com/curriculum/">curriculum</a>
-          &nbsp;exceeds all test points. To aid parents prepare their children
+          and we ensure that our curriculum exceeds all test points. To aid parents prepare their children
           for entrance to kindergarten, Chandler Unified School District (CUSD)
           provides a&nbsp;
-          <a href="https://www.cusd80.com/cms/lib/AZ01001175/Centricity/Domain/24/Kindergarten%20Under%20Construction%20ENGLISH.pdf">
+          <a target="_blank" href="https://www.cusd80.com/cms/lib/AZ01001175/Centricity/Domain/24/Kindergarten%20Under%20Construction%20ENGLISH.pdf">
             Kindergarten Readiness Handbook
           </a>
           . All CUSD elementary school policies and information is covered in
           the CUSD&nbsp;
-          <a href="https://www.cusd80.com/page/1147">
+          <a target="_blank" href="https://www.cusd80.com/page/1147">
             Elementary Student Handbook
           </a>
           .
         </TabPane>
 
         <TabPane tabId="2">
-
           <h1>History</h1>
           <strong>Curious Kids</strong>&nbsp;is the result of a dream conceived
           and brought to fruition by husband and wife team of Clive Jervis and
@@ -120,12 +154,8 @@ const Resourcetabs = props => {
           school got its name when Clive and Ruth asked their then six year old
           son, to think of a favorite character and he chose Curious George.
           Clive &amp; Ruth's daughter was one of the 13 kids that were the first
-          to graduate from Curious Kids in May 2014. Curious Kids began&nbsp;
-          <a href="http://curiouskidspreschool.com/history/construction/">
-            construction
-          </a>
-          &nbsp;in June 2012, and opened on October 17th 2012.
-
+          to graduate from Curious Kids in May 2014. Curious Kids began construction in June 2012, and opened on October 17th 2012.
+          <br></br>
           <h1> Construction </h1>
           <strong>Curious Kids&nbsp;</strong>Preschool&nbsp;was newly
           constructed in 2012 inside a previously unoccupied space of Dobson
