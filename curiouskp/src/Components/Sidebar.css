@@ -114,6 +114,11 @@ transition:0.5s;
   background-color: rgb(63, 61, 61);
   
 }
+
+.sidebar-contact-wrap-mobile{
+  display:none;
+}
+
 .sidebar-bottom-container {
   display: flex;
   flex-direction: column;
