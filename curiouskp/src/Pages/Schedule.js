@@ -15,14 +15,14 @@ class Schedule extends Component {
     return (
       <div className="home-body">
        
-<Col className="left-column">
+<div className="left-column">
 
 <Sidebar />
 
-</Col>
+</div>
 
 
-<Col className="right-column">
+<div className="right-column">
 
 <div className="carousel-wrap">
 
@@ -36,7 +36,7 @@ class Schedule extends Component {
 
   </div>
 
-</Col>
+</div>
       </div>
     );
   }

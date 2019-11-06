@@ -1,5 +1,6 @@
 import React from "react";
 import "./Sidebar.css";
+import "./Sidebar-media.css";
 import { Link } from "react-router-dom";
 
 

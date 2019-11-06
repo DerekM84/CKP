@@ -13,7 +13,6 @@ import {
   Col
 } from "reactstrap";
 import classnames from "classnames";
-import "./Resourcestabs.css";
 
 const Resourcetabs = props => {
   const [activeTab, setActiveTab] = useState("1");

@@ -18,14 +18,14 @@ class Home extends Component {
 
       
 
-       <Col className="left-column">
+       <div className="left-column">
 
         <Sidebar />
 
-       </Col>
+       </div>
        
 
-        <Col className="right-column">
+        <div className="right-column">
 
         <div className="carousel-wrap">
 
@@ -37,9 +37,9 @@ class Home extends Component {
 
             <Hometabs />
 
-          </div>
+            </div>
 
-        </Col>
+        </div>
       
      
       </div>
