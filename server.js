@@ -5,8 +5,9 @@ const PORT = process.env.PORT || 3001;
 const path = require("path");
 const router = require("express").Router();
 
-router.use(function(req, res) {
-  res.sendFile(path.join(__dirname, "../client/public/index.html"));
+
+app.get("/", function(req, res) {
+  res.json(path.join(__dirname, "./client/public/index.html"));
 });
 
 app.listen(PORT, function() {
