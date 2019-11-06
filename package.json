@@ -1,0 +1,21 @@
+{
+  "name": "CKP",
+  "version": "1.0.0",
+  "description": "## Project Design",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DerekM84/CKP.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DerekM84/CKP/issues"
+  },
+  "homepage": "https://github.com/DerekM84/CKP#readme"
+}
