@@ -17,7 +17,7 @@
   "bugs": {
     "url": "https://github.com/DerekM84/CKP/issues"
   },
-  "homepage": "https://derekm84.github.io/CKP/",
+  "homepage": "https://fast-headland-05522.herokuapp.com",
   "dependencies": {
     "express": "^4.17.1",
     "path": "^0.12.7"
