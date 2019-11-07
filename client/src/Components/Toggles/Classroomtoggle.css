@@ -57,3 +57,27 @@ font-size:3rem;
     height:97%;
     width:97%;
 }
+
+@media only screen and (max-width:785px) {
+    .classroom-toggle-button{
+        background-color:transparent;
+        border-radius:8%;
+        border:2px solid rgb(45, 45, 45);
+        box-shadow: 3px 3px 10px grey;
+        transition:0.3s;
+        margin:3% auto;
+        height:50px;
+        
+    }
+
+    .classroom-button-p {
+        color: rgb(127,173,53);
+        font-size:1rem;
+        font-family:cursive;
+        transition:0.3s;
+    }
+    .classroom-toggle-button:hover .classroom-button-p {
+        color:white;
+        font-size:1.1rem;
+        }
+}

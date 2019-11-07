@@ -44,7 +44,7 @@ const Hometabs = props => {
               toggle("2");
             }}
           >
-            Teachers & Staff
+            Staff
           </NavLink>
         </NavItem>
         <NavItem className="nav-item">
@@ -54,7 +54,7 @@ const Hometabs = props => {
               toggle("3");
             }}
           >
-            Tuition / Fees
+            Tuition
           </NavLink>
         </NavItem>
       </Nav>
@@ -63,83 +63,79 @@ const Hometabs = props => {
         <TabPane tabId="1">
           <Row>
             <Col sm="12">
-               <div className="styling-container">
-                <div className="styled-heading-wrap">
-                  <h4 className="styled-heading"> Mission Contents </h4>
-                </div>
+              <div className="styling-container">
+                <div className="styled-heading-wrap"></div>
 
-
-
-
-
-              <p>
-                <b>K</b>ids are curious by nature. At Curious Kids
-                Preschool, our mission is to foster that curiosity through a fun
-                STEAM curriculum with hands-on learning experience. STEAM
-                provides our our students with the best foundation for
-                Kindergarten, be it charter, CTA, or district school.
-                <br></br>
-                <br></br>
-                What is 
-                <a
-                  target="_blank"
-                  href="http://www.edutopia.org/blog/stem-to-steam-strengthens-economy-john-maeda"
-                  >
-                  STEAM
-                </a>{" "}
-                ?<br></br>
-                <br></br>
-                Science, Technology, Engineering, Arts, and Mathematics.
-                <br></br>
-                <br></br>
-                Curious Kids provides a safe, clean environment with dynamic and
-                challenging activity to develop our children’s academic and
-                social abilities through age-related programs. Because of our
-                small class sizes, each student gets the one-on-one attention
-                they need to develop at their individual pace. We also nurture a
-                rounded development through:
-                <br></br>
-                <br></br>
-                <ul>
-                  <li>
-                    Instilling good{" "}
-                    <a
-                      target="_blank"
-                      href="http://www.parents.com/kids/development/social/25-manners-kids-should-know/"
-                      >
-                      manners
-                    </a>{" "}
-                    and core values.
-                  </li>
-                  <li>
-                    Teaching good environmental practices such as the 3Rs:
-                    reducing, reusing &amp; recycling.
-                  </li>
-                  <li>
-                    Learning the importance of nutrition and exercise as part of
-                    promoting good health.
-                  </li>
-                  <li>Open childrens' minds to other cultures and customs.</li>
-                </ul>
-                <br></br>
                 <p>
-                  <b>A</b>t Curious Kids, we believe that kids will already have
-                  enough screen-time exposure, so we are proud of our{" "}
-                  <b>Screen Free Learning Environment </b>
-                  as part of our commitment to health, nutrition
-                  and exercise Curious Kids participates in the Arizona
-                  Department of Health Services program named
+                  <b>K</b>ids are curious by nature. At Curious Kids
+                  Preschool, our mission is to foster that curiosity through a
+                  fun STEAM curriculum with hands-on learning experience. STEAM
+                  provides our our students with the best foundation for
+                  Kindergarten, be it charter, CTA, or district school.
+                  <br></br>
+                  <br></br>
+                  What is 
                   <a
                     target="_blank"
-                    href="http://azdhs.gov/prevention/nutrition-physical-activity/empower/index.php"
+                    href="http://www.edutopia.org/blog/stem-to-steam-strengthens-economy-john-maeda"
+                  >
+                    STEAM
+                  </a>{" "}
+                  ?<br></br>
+                  <br></br>
+                  Science, Technology, Engineering, Arts, and Mathematics.
+                  <br></br>
+                  <br></br>
+                  Curious Kids provides a safe, clean environment with dynamic
+                  and challenging activity to develop our children’s academic
+                  and social abilities through age-related programs. Because of
+                  our small class sizes, each student gets the one-on-one
+                  attention they need to develop at their individual pace. We
+                  also nurture a rounded development through:
+                  <br></br>
+                  <br></br>
+                  <ul>
+                    <li>
+                      Instilling good{" "}
+                      <a
+                        target="_blank"
+                        href="http://www.parents.com/kids/development/social/25-manners-kids-should-know/"
+                      >
+                        manners
+                      </a>{" "}
+                      and core values.
+                    </li>
+                    <li>
+                      Teaching good environmental practices such as the 3Rs:
+                      reducing, reusing &amp; recycling.
+                    </li>
+                    <li>
+                      Learning the importance of nutrition and exercise as part
+                      of promoting good health.
+                    </li>
+                    <li>
+                      Open childrens' minds to other cultures and customs.
+                    </li>
+                  </ul>
+                  <br></br>
+                  <p>
+                    <b>A</b>t Curious Kids, we believe that kids will already
+                    have enough screen-time exposure, so we are proud of our{" "}
+                    <b>Screen Free Learning Environment </b>
+                    as part of our commitment to health, nutrition
+                    and exercise Curious Kids participates in the Arizona
+                    Department of Health Services program named
+                    <a
+                      target="_blank"
+                      href="http://azdhs.gov/prevention/nutrition-physical-activity/empower/index.php"
                     >
-                    {" "}
-                    Empower
-                  </a>
-                  .
+                      {" "}
+                      Empower
+                    </a>
+                    .
+                  </p>
                 </p>
-              </p>
-                    </div>
+              </div>
             </Col>
           </Row>
         </TabPane>
@@ -233,8 +229,11 @@ const Hometabs = props => {
         <TabPane tabId="3">
           <Row>
             <Col sm="12">
-              <h2>Registration / Tuition</h2>
-              <h3>2019-2020</h3>
+              <p>
+                <b>Registration / Tuition</b>
+                <br></br>
+                <b>2019-2020</b>
+              </p>
               <p>
                 <br></br>
                 Registration is a non-refundable fee of $150 for am classes and

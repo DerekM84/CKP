@@ -34,7 +34,7 @@
       display: flex;
       justify-content: center;
       align-items: center;
-      height: 10%;
+      height: 0%;
       background-color: rgb(63, 61, 61);
       }
 
@@ -56,7 +56,7 @@
         color:rgb(127,173,53);
       }
       
-      .sidebar-bottom-wrap:hover p{
+      .sidebar-bottom-wrap:hover p {
         color:#CEE0F2;
       }
 
@@ -66,6 +66,7 @@
       display:flex;
       align-items:center;
       align-content:center;
+      padding-bottom:2%;
     }
     
     .sidebar-logo-tile {

@@ -37,14 +37,14 @@ class Sidebar extends React.Component {
               <p>MAIN</p>{" "}
             </button>
           </Link>
-          <Link className="sidebar-link" to="/schedule">
-            <button className="sidebar-button">
-              <p>SCHEDULE</p>
-            </button>
-          </Link>
           <Link className="sidebar-link" to="/curriculum">
             <button className="sidebar-button">
               <p>CURRICULUM</p>{" "}
+            </button>
+          </Link>
+          <Link className="sidebar-link" to="/schedule">
+            <button className="sidebar-button">
+              <p>SCHEDULE</p>
             </button>
           </Link>
           <Link className="sidebar-link" to="/resources">
@@ -57,11 +57,10 @@ class Sidebar extends React.Component {
         <div className="sidebar-bottom-wrap">
           <div className="sidebar-bottom-container">
             <h1>
-              <a href="mailto:info@curiouskidspreschoolaz.com">Contact Us</a>
+              <a href="mailto:info@curiouskidspreschoolaz.com"><i class="fas fa-envelope"></i> Email Us</a>
             </h1>
-            <p>Informational Text</p>
-            <p>Tel: 480 659-5511</p>
             <p>info@curiouskidspreschoolaz.com ‎</p>
+            <p><i class="fas fa-phone"></i> 480-659-5511</p>
           </div>
         </div>
       </div>

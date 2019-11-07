@@ -53,7 +53,7 @@ const Scheduletabs = props => {
               toggle("3");
             }}
           >
-            Summer Program
+            Summer
           </NavLink>
         </NavItem>
       </Nav>
@@ -114,7 +114,7 @@ const Scheduletabs = props => {
         </TabPane>
 
         <TabPane tabId="2">
-          <h1>2017-2018 Calendar</h1>
+          <h1>2019 Calendar</h1>
 <br>
 </br>
           <h3>N.B. Spring/Fall breaks are only one week long, and school year

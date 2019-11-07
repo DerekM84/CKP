@@ -29,7 +29,7 @@ class Home extends Component {
 
         <div className="carousel-wrap">
 
-            <Slideshow />
+            <Slideshow className="slide-1"/>
 
           </div>
 

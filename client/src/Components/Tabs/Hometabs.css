@@ -1,50 +1,49 @@
-
 /* margin and grid settings for all tab areas */
 
 .nav-item {
-  background-color: #CEE0F2;
+  background-color: #cee0f2;
   border-radius: 5%;
-  font-family: 'Yeon Sung', cursive;
-  color:black;
-  border:1px solid black;
-  box-shadow:inset 1px 1px 14px 2px black;
-  margin-top:7px;
+  font-family: "Yeon Sung", cursive;
+  color: black;
+  border: 1px solid black;
+  box-shadow: inset 1px 1px 14px 2px black;
+  margin-top: 7px;
 }
 
 a {
-  color:rgb(127,173,53);
-  transition:0.2s;
+  color: rgb(127, 173, 53);
+  transition: 0.2s;
 }
-a:hover{
+a:hover {
   text-decoration: underline;
-  color:orange;
+  color: orange;
 }
 
-.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link:hover {
-  background-color:#CEE0F2;
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link:hover {
+  background-color: #cee0f2;
   color: purple;
   text-decoration: none;
-  border:1px solid black;
+  border: 1px solid black;
   cursor: pointer;
-  box-shadow:inset 0px 1px 7px 2px black;
-
-
+  box-shadow: inset 0px 1px 7px 2px black;
 }
 
-.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
-  background-color:rgb(127,173,53);
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active {
+  background-color: rgb(127, 173, 53);
   color: purple;
-  border:1px solid black;
-  box-shadow:inset 1px 1px 8px 3px black;
+  border: 1px solid black;
+  box-shadow: inset 1px 1px 8px 3px black;
 }
 
- .nav-link:active {
-  background-color:lavender;
+.nav-link:active {
+  background-color: lavender;
 }
 
 .nav-container {
-  margin-top: 0% ;
-  margin-bottom: 5% ;
+  margin-top: 0%;
+  margin-bottom: 5%;
   display: flex;
   justify-content: space-evenly;
   border: none;
@@ -54,40 +53,38 @@ a:hover{
 .tab-content {
   display: flex;
   justify-content: center;
-  flex-direction:row;
+  flex-direction: row;
   overflow: hidden;
   align-items: center;
   align-content: center;
   width: 85%;
   margin: auto auto;
-  color: #CEE0F2;
+  color: #cee0f2;
 }
 
 /* Content on the home page */
-.calendar-table-wrap{
-  margin:auto;
+.calendar-table-wrap {
+  margin: auto;
 }
 table {
-  margin:auto;
+  margin: auto;
   width: 80%;
   height: 100%;
 }
 
-table tr{
+table tr {
   text-align: center;
-  margin-bottom:5%;
+  margin-bottom: 5%;
 }
 table td {
-  margin-bottom:5%;
+  margin-bottom: 5%;
 }
 
-
-
 .staff-boxes {
-  display:flex;
-  flex-direction:column;
-  justify-content:center;
-  align-items:center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .staff-container-wrap {
   width: 75%;
@@ -100,9 +97,9 @@ table td {
   min-height: 375px;
   min-width: 350px;
   font-size: 0.8rem;
-  margin:auto;
-  margin-bottom:30px;
-  box-shadow:0px 5px 3px lightgrey;
+  margin: auto;
+  margin-bottom: 30px;
+  box-shadow: 0px 5px 3px lightgrey;
 }
 
 .staff-container-top {
@@ -115,11 +112,8 @@ table td {
   text-align: center;
   flex-wrap: wrap;
   border: 1px solid purple;
-  background-color:
+  background-color: ;
 }
-
-
-
 
 .staff-picture-wrap {
   width: 40%;
@@ -127,19 +121,18 @@ table td {
   max-height: 200px;
   max-width: 150px;
   border: 1px solid green;
-  border-radius:50%;
-  margin:auto;
+  border-radius: 50%;
+  margin: auto;
 }
 
 .staff-picture {
   height: 100%;
   width: 100%;
-  border-radius:50%;
-  
+  border-radius: 50%;
 }
 
 .staff-container-bottom {
-  background-color:darkslategray;
+  background-color: darkslategray;
   flex-direction: row;
   text-align: left;
   border: 1px solid orange;
@@ -147,39 +140,71 @@ table td {
   width: 100%;
 }
 
-.staff-text-wrap{
+.staff-text-wrap {
   height: 96%;
   width: 96%;
   margin: 2% auto;
 }
 
 .styling-heading-wrap {
-border-top: 1px solid white;
-border-bottom: 1px solid white;
-border-right: 1px solid white;
-border-left: 1px solid white;
-width: 30%;
-display: flex;
-justify-content: center;
-transition: 0.5s ease-in-out;
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+  border-right: 1px solid white;
+  border-left: 1px solid white;
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  transition: 0.5s ease-in-out;
 }
 
 .styled-heading {
-font-size: 2.0rem;
-transition: 0.5s ease-in-out;
+  font-size: 2rem;
+  transition: 0.5s ease-in-out;
 }
 
 .styling-container:hover .styled-heading-wrap {
-transform: none ;
-border-right: none ;
+  transform: none;
+  border-right: none;
 }
 
 .styling-heading-wrap:hover .styled-heading {
-font-size:2.5rem;
-transform:translateX(50px) rotate(-5deg);
+  font-size: 2.5rem;
+  transform: translateX(50px) rotate(-5deg);
 }
 
-@media only screen and (max-width:785px) {
+@media only screen and (max-width: 785px) {
 
+  h1{
+    font-size:1.5rem;
+  }
+  .tab-content {
+    width:95%;
+    font-size: 0.6rem;
+  }
+  .nav-item {
+    height: 100%;
+    width: 30%;
+    font-size: 0.8rem;
+    text-align: center;
+  }
+  .staff-container-wrap {
+    width: 100%;
+   
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+    min-height: 0px;
+    min-width: 0px;
+    font-size: 0.8rem;
+    margin: auto;
+    margin-bottom: 30px;
+    box-shadow: 0px 5px 3px lightgrey;
+  }
 
+  .staff-container-bottom {
+    font-size: 0.5rem;
+  }
 }

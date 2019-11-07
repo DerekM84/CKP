@@ -34,7 +34,7 @@ const Curriculumtabs = props => {
               toggle("1");
             }}
           >
-            Four Classrooms
+           Classrooms
           </NavLink>
         </NavItem>
 
@@ -45,7 +45,7 @@ const Curriculumtabs = props => {
               toggle("2");
             }}
           >
-            Course Enrichment
+            Enrichment
           </NavLink>
         </NavItem>
         <NavItem className="nav-item">

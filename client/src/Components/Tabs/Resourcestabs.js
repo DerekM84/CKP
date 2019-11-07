@@ -42,7 +42,7 @@ const Resourcetabs = props => {
               toggle("2");
             }}
           >
-            Site History
+           History
           </NavLink>
         </NavItem>
         <NavItem className="nav-item">
