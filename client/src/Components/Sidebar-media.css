@@ -43,7 +43,7 @@
         flex-direction: row;
         justify-content: space-evenly;
         background-color: rgb(63, 61, 61);
-        margin:5px auto;
+        margin:auto auto;
         height: 95%;
         width: 85%;
         border-radius: 4%;
@@ -66,7 +66,7 @@
       display:flex;
       align-items:center;
       align-content:center;
-      padding-bottom:2%;
+      padding-bottom:4%;
     }
     
     .sidebar-logo-tile {
@@ -76,6 +76,7 @@
       align-items: center;
       margin: auto auto;
       height: 70%;
+
       width: 65%;
       border-radius: 2%;
       /* box-shadow: 3px 3px 10px grey; */
@@ -104,7 +105,7 @@
       justify-content:center;
       align-content: center;
       align-items: center;
-      margin: auto auto;
+      margin: 3px auto;
       height: 90%;
       width: 90%;
       border-radius: 50%;

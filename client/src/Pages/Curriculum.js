@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import "./Home.css";
+
 import Sidebar from "../Components/Sidebar";
 import Slideshow from "../Components/Carousel";
 import Curriculumtabs from "../Components/Tabs/Curriculumtabs";

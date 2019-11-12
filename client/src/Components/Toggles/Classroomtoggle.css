@@ -4,12 +4,12 @@
     margin:auto;
 }
 
-.classroom-toggle-button{
+.classroom-toggle-button {
 background-color:transparent;
 border-radius:8%;
-border:2px solid rgb(45, 45, 45);
+border: 2px solid rgb(45, 45, 45);
 box-shadow: 3px 3px 10px grey;
-transition:0.3s;
+transition: 0.3s;
 margin:3% auto;
 }
 
@@ -21,14 +21,14 @@ border:none;
 
 .classroom-button-p {
     color: rgb(127,173,53);
-    font-size:2rem;
-    font-family:cursive;
-    transition:0.3s;
+    font-size:1.7rem;
+    font-family: 'Nunito', sans-serif;
+    transition:0.2s;
 }
 
 .classroom-toggle-button:hover .classroom-button-p {
 color:white;
-font-size:3rem;
+font-size:2.4rem;
 }
 
 
@@ -44,11 +44,11 @@ font-size:3rem;
     border-radius:10%;
 }
 .card-image {
-    width:45%;
-    margin:auto;
-    border-radius:10%;
+    width: 45%;
+    margin: auto;
+    border-radius: 10%;
     box-shadow: 3px 3px 10px grey;
-    border:2px solid rgb(45, 45, 45);
+    border: 2px solid rgb(45, 45, 45);
 }
 .toggle-image-wrap {
     display:flex;
@@ -73,11 +73,25 @@ font-size:3rem;
     .classroom-button-p {
         color: rgb(127,173,53);
         font-size:1rem;
-        font-family:cursive;
+        font-family: 'Nunito', sans-serif;
+
         transition:0.3s;
     }
     .classroom-toggle-button:hover .classroom-button-p {
         color:white;
         font-size:1.1rem;
+        }
+
+       
+        .card-image {
+            width: 95%;
+            margin: 10px auto;
+            border-radius: 10%;
+            box-shadow: 3px 3px 10px grey;
+            border:2px solid rgb(45, 45, 45);
+        }
+        .toggle-image-wrap {
+           
+            flex-direction: column;
         }
 }

@@ -107,7 +107,7 @@ const Curriculumtabs = props => {
           <b>Click on a classroom to take a peak inside!</b>
           <div className="classroom-toggle-container">
             <Classroomtoggle
-              title="The 2's Classroom"
+              title="THE 2's CLASSROOM"
               text=""
               img="/images/Classrooms/2A.jpg"
               img2="/images/Classrooms/2B.jpg"
@@ -115,7 +115,7 @@ const Curriculumtabs = props => {
           </div>
           <div className="classroom-toggle-container">
             <Classroomtoggle
-              title="The 3's Classroom"
+              title="THE 3's CLASSROOM"
               text=""
               img="/images/Classrooms/3A.jpg"
               img2="/images/Classrooms/3B.jpg"
@@ -123,7 +123,7 @@ const Curriculumtabs = props => {
           </div>
           <div className="classroom-toggle-container">
             <Classroomtoggle
-              title="Pre-K Classroom"
+              title="PRE-K CLASSROOM"
               text=""
               img="/images/Classrooms/PreK1.jpg"
               img2="/images/Classrooms/PreK2.jpg"
@@ -131,7 +131,7 @@ const Curriculumtabs = props => {
           </div>
           <div className="classroom-toggle-container">
             <Classroomtoggle
-              title="Pre-K+ Classroom"
+              title="PRE-K+ CLASSROOM"
               text=""
               img="/images/Classrooms/Kplus1.jpg"
               img2="/images/Classrooms/Kplus2.jpg"
@@ -147,7 +147,7 @@ const Curriculumtabs = props => {
 
           <div className="enrichment-toggle-container">
             <Enrichmenttoggle
-              title="Art Masterpieces"
+              title="ART MASTERPIECES"
               img="/images/Building/art-gallery.jpg"
               img2="/images/Misc/art2.jpg"
               text=" At Curious Kids we promote free art expression.
@@ -171,7 +171,7 @@ const Curriculumtabs = props => {
 
           <div className="enrichment-toggle-container">
             <Enrichmenttoggle
-              title="Science"
+              title="SCIENCE"
               img="/images/Misc/mission.jpg"
               img2="/images/Misc/parachute.jpg"
               text=" We believe that science is so
@@ -190,7 +190,7 @@ const Curriculumtabs = props => {
 
           <div className="enrichment-toggle-container">
             <Enrichmenttoggle
-              title="Yoga"
+              title="YOGA"
               img="/images/Misc/dance.jpg"
               img2="/images/Misc/group2.jpg"
               text="Childrens' Yoga is a fun way for kids to develop
@@ -214,7 +214,7 @@ const Curriculumtabs = props => {
 
           <div className="enrichment-toggle-container">
             <Enrichmenttoggle
-              title="Gross Motor Skills"
+              title="GROSS MOTOR SKILLS"
               img="/images/Misc/lazer.jpg"
               img2="/images/Misc/group2.jpg"
               text="

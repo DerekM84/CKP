@@ -33,22 +33,22 @@ class Sidebar extends React.Component {
 
         <div className="sidebar-middle">
           <Link className="sidebar-link" to="/home">
-            <button className="sidebar-button">
+            <button className="sidebar-button main-button">
               <p>MAIN</p>{" "}
             </button>
           </Link>
           <Link className="sidebar-link" to="/curriculum">
-            <button className="sidebar-button">
+            <button className="sidebar-button curriculum-button">
               <p>CURRICULUM</p>{" "}
             </button>
           </Link>
           <Link className="sidebar-link" to="/schedule">
-            <button className="sidebar-button">
+            <button className="sidebar-button schedule-button">
               <p>SCHEDULE</p>
             </button>
           </Link>
           <Link className="sidebar-link" to="/resources">
-            <button className="sidebar-button">
+            <button className="sidebar-button resources-button">
               <p>RESOURCES</p>{" "}
             </button>
           </Link>

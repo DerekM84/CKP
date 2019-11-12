@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 import "./Home.css";
+
+
 import Sidebar from "../Components/Sidebar";
 import Slideshow from "../Components/Carousel";
 import Resourcestabs from "../Components/Tabs/Resourcestabs";

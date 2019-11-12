@@ -2,7 +2,8 @@
     display:flex;
     flex-direction: column;
     margin:auto;
-    font-family: 'Yeon Sung', cursive;
+    font-family: 'Nunito', sans-serif;
+
     
 }
 
@@ -23,14 +24,15 @@ border:none;
 
 .enrichment-button-p {
     color: rgb(127,173,53);
-    font-size:2rem;
-    font-family:cursive;
-    transition:0.3s;
+    font-size:1.7rem;
+    font-family: 'Nunito', sans-serif;
+
+    transition:0.2s;
 }
 
 .enrichment-toggle-button:hover .enrichment-button-p {
 color:white;
-font-size:3rem;
+font-size:2.4rem;
 }
 
 
@@ -74,11 +76,22 @@ font-size:3rem;
    .enrichment-button-p {
         color: rgb(127,173,53);
         font-size:1rem;
-        font-family:cursive;
-        transition:0.3s;
+        font-family: 'Nunito', sans-serif;
+        transition:0.2s;
     }
   .enrichment-toggle-button:hover .enrichment-button-p {
         color:white;
         font-size:1.1rem;
+        }
+        .card-image {
+            width: 95%;
+            margin: 10px auto;
+            border-radius: 10%;
+            box-shadow: 3px 3px 10px grey;
+            border:2px solid rgb(45, 45, 45);
+        }
+        .toggle-image-wrap {
+           
+            flex-direction: column;
         }
 }
